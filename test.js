@@ -6,8 +6,8 @@ function encodeDecode (t, v, bytes) {
   var b = svi.encode(v)
   t.equal(b.length, bytes)
   t.equal(svi.decode(b), v)
-  t.equal(svi.encode.bytesWritten, bytes)
-  t.equal(svi.decode.bytesRead, bytes)
+  t.equal(svi.encode.bytes, bytes)
+  t.equal(svi.decode.bytes, bytes)
 }
 
 tape('single byte', function (t) {
