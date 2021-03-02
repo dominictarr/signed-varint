@@ -8,10 +8,10 @@
     "url": "git://github.com/dominictarr/signed-varint.git"
   },
   "dependencies": {
-    "varint": "~5.0.0"
+    "varint": "~6.0.0"
   },
   "devDependencies": {
-    "tape": "~2.12.3"
+    "tape": "~5.2.1"
   },
   "scripts": {
     "test": "node test.js"
